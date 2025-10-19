@@ -336,7 +336,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/generateContent.handler",
               "Runtime": "nodejs18.x",
@@ -369,7 +369,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/uploadHandler.handler",
               "Runtime": "nodejs18.x",
@@ -402,7 +402,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/createSession.handler",
               "Runtime": "nodejs18.x",
@@ -435,7 +435,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/joinSession.handler",
               "Runtime": "nodejs18.x",
@@ -468,7 +468,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/getSession.handler",
               "Runtime": "nodejs18.x",
@@ -501,7 +501,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/submitAnswer.handler",
               "Runtime": "nodejs18.x",
@@ -534,7 +534,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/nextQuestion.handler",
               "Runtime": "nodejs18.x",
@@ -567,7 +567,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/getLeaderboard.handler",
               "Runtime": "nodejs18.x",
@@ -600,7 +600,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/uploadAudio.handler",
               "Runtime": "nodejs18.x",
@@ -633,7 +633,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/getTranscriptionStatus.handler",
               "Runtime": "nodejs18.x",
@@ -666,7 +666,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/generateMoreQuestions.handler",
               "Runtime": "nodejs18.x",
@@ -699,7 +699,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/exportQuizlet.handler",
               "Runtime": "nodejs18.x",
@@ -732,7 +732,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/exportKahoot.handler",
               "Runtime": "nodejs18.x",
@@ -765,7 +765,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/exportStudyGuide.handler",
               "Runtime": "nodejs18.x",
@@ -798,7 +798,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/multiplayerCreateRoom.handler",
               "Runtime": "nodejs18.x",
@@ -831,7 +831,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/multiplayerJoinRoom.handler",
               "Runtime": "nodejs18.x",
@@ -864,7 +864,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/multiplayerGetRoom.handler",
               "Runtime": "nodejs18.x",
@@ -897,7 +897,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/multiplayerStartRoom.handler",
               "Runtime": "nodejs18.x",
@@ -930,7 +930,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/multiplayerLeaveRoom.handler",
               "Runtime": "nodejs18.x",
@@ -963,7 +963,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/multiplayerSubmitAnswer.handler",
               "Runtime": "nodejs18.x",
@@ -996,7 +996,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z/ai-study-assistant.zip"
+                "S3Key": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z/ai-study-assistant.zip"
               },
               "Handler": "functions/multiplayerNextQuestion.handler",
               "Runtime": "nodejs18.x",
@@ -1022,214 +1022,214 @@
               "MultiplayerNextQuestionLogGroup"
             ]
           },
-          "GenerateContentLambdaVersionCMtMVYcn5zawCmJrN4wd5JMQPtuCJlPKVvGMSYnKhng": {
+          "GenerateContentLambdaVersionx7aPzw2vb89uFw6D1TLlBn6swIGfTJ8N6nR0Z6GWr8s": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "GenerateContentLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "UploadHandlerLambdaVersionga586JGo25jDKZdJpB7VqfyNISr5nmrORoEoSZl7qI": {
+          "UploadHandlerLambdaVersionT6le4AZfdh0xScqdsB47uDLq22MT0PQ6y3xJW0IlUkg": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "UploadHandlerLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "CreateSessionLambdaVersionKsw89Nijl98BuiFp70USTGCtWkpkLMh7GiTq8NC7Y": {
+          "CreateSessionLambdaVersionciXGUxagVL6acp7UJr0YuS0lZ8fi34CBgfWy65rVA5M": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "CreateSessionLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "JoinSessionLambdaVersionirpxIZ38przD81IiKgiMJkNlHkgIUW7XbLyFnTDJDJo": {
+          "JoinSessionLambdaVersion9jW3YaDkLikBJhtN1n1odNGZJEZhpeQcu1lCyp4hibA": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "JoinSessionLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "GetSessionLambdaVersionN4X630kO5T1uWIBV0ZOpvviQUGidJ9t6ApW4SPozTmM": {
+          "GetSessionLambdaVersion2Q0Zgy6UdezJplieeN3jjFlJTVajtrUjBydLkLcHo": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "GetSessionLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "SubmitAnswerLambdaVersionmwMnqukxoiWOGueQ37pMxwa8udxTrFpadAh15hjKE": {
+          "SubmitAnswerLambdaVersionFMxSMafCZgC2CYIUltVOm8a1sEqcCuSVIpb9P85HSc": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "SubmitAnswerLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "NextQuestionLambdaVersioniYdzxMZ8KrALp0mhaWeHqXUa5PSpFGyiwoIdP8q6Q": {
+          "NextQuestionLambdaVersionqgU4y0EoOlGCBV2RAFs8kkE4XVstyGPyvpBBcSeQ": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "NextQuestionLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "GetLeaderboardLambdaVersionDwrL49OiTI8gQSA6txfVhrWC01rGtYKZsvI3ef0wQ": {
+          "GetLeaderboardLambdaVersionNmFor77fU1IwVs86SmXzUAkBUT9pLTg7JZ9T6buIk": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "GetLeaderboardLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "UploadAudioLambdaVersion6nwmcp92nMk6CDZ9QFQHL00HgJmvYwug91c36KQ6k": {
+          "UploadAudioLambdaVersionHUPlxaEBGITvPHSxnC8mBCccMe5xgNPfOKyy8Ciccc": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "UploadAudioLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "GetTranscriptionStatusLambdaVersionAx4GKqbWH0gfjoOwLnpl86ctGQMQBEw8vOC19DtKBs": {
+          "GetTranscriptionStatusLambdaVersiontGOHBs7CjgOz4hzj2P4xRCHu7BnUMqHnC1fSoAVnA": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "GetTranscriptionStatusLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "GenerateMoreQuestionsLambdaVersionFAyU7ip1ucmTxbl9wNGvjE3y75EaaDDVN1NlaDmC8": {
+          "GenerateMoreQuestionsLambdaVersionEObSmHJ1CgItEjZXXR7JzoSKKsagBU3ubtdfOa3yA": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "GenerateMoreQuestionsLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "ExportQuizletLambdaVersion3hoDopZfupT5VvioPxFCIUQ24PLLyPQ3PXoT1FNvo": {
+          "ExportQuizletLambdaVersionS5xGUa3MqecwS8eXeqOPyBP8CXi5ykcZhdBistte1jQ": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ExportQuizletLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "ExportKahootLambdaVersionVs5c2K65XSVW7NFqH0Fyh4E9wSSgTK3BHuLfI6WaYk": {
+          "ExportKahootLambdaVersion8h2AE25UjgIys0lQXKrMj4WeSayLGU7fmjvS47dYxnY": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ExportKahootLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "ExportStudyGuideLambdaVersionZMlZs01L8jHNCJsasZsQgBmkcddWBVT9GxcckhuyVA": {
+          "ExportStudyGuideLambdaVersionyNhcU3qjsOZsRPgxqUoh4TEPl3LjwBdfwQkCF4oZiA": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ExportStudyGuideLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "MultiplayerCreateRoomLambdaVersionqd9YGUmkUQnzKEO5nlERRkerO9g4dSpQkFVDvYrI": {
+          "MultiplayerCreateRoomLambdaVersionZNQt7TwbWiO2iuz3QKM83u2uYA2HiejgNeD6YmCKHs": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "MultiplayerCreateRoomLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "MultiplayerJoinRoomLambdaVersion9Ag9i8PHpQyzaj2pdYldUq7YlbzN1zBZBkgBOP9emRc": {
+          "MultiplayerJoinRoomLambdaVersion1swsOW0g9lT0BxM7ophUMKKSO7L6NS70ziCArId8cM": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "MultiplayerJoinRoomLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "MultiplayerGetRoomLambdaVersionZVTu0zuqaoYv7tKWIEw5x0t4smERPkcgUQtPWhmEE": {
+          "MultiplayerGetRoomLambdaVersioneb9saboB06FBViOkIzs9MvqJ12qDAQeqBXgvCVlALk": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "MultiplayerGetRoomLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "MultiplayerStartRoomLambdaVersiondLLX7RxqJc2IYbKhmdH0H6IwOgpOyphbL1A4UvbQ1x8": {
+          "MultiplayerStartRoomLambdaVersion8i7ZDIGK3fBY6YRM4tmo0iWNiK8M3EiB5DkwoPpNw8": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "MultiplayerStartRoomLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "MultiplayerLeaveRoomLambdaVersionykRSDbjWMw0TgXzXR5hjxUhZVT0iEacn5cYKChiAiU": {
+          "MultiplayerLeaveRoomLambdaVersionbog7NLE6wmS5ecORLiejyZqPzTYRlRf6XTgLo54t4hU": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "MultiplayerLeaveRoomLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "MultiplayerSubmitAnswerLambdaVersionNzR6npAmWjtvCyaeBMgSqMcHwuE8iqnGQX9YM9VFkRE": {
+          "MultiplayerSubmitAnswerLambdaVersionqnvfFntQMEW0V8DzjQWtyUv2wa37CSG5PI9lg8YjLQ": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "MultiplayerSubmitAnswerLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
-          "MultiplayerNextQuestionLambdaVersionVojnY3cIZy2XmYKhfcb4l6BW7B8TOjkCXSx8dRxoY": {
+          "MultiplayerNextQuestionLambdaVersionZVL2LPMz2TJJeEKxGNMjxvEiK7VtwTOQXxkhFcuS270": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "MultiplayerNextQuestionLambdaFunction"
               },
-              "CodeSha256": "B/QC/mhoDhg0g4GKry1nc9XZwCy7CdSvy01dLgoSL4I="
+              "CodeSha256": "SfhNF2I7TPCvXJ2+IekK115Qc/k6zohHEdsvtTTWkfw="
             }
           },
           "ApiGatewayRestApi": {
@@ -3488,7 +3488,7 @@
               "MultiplayerNextQuestionLambdaPermissionApiGateway"
             ]
           },
-          "ApiGatewayDeployment1760841734429": {
+          "ApiGatewayDeployment1760852048039": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -4418,7 +4418,7 @@
           "GenerateContentLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "GenerateContentLambdaVersionCMtMVYcn5zawCmJrN4wd5JMQPtuCJlPKVvGMSYnKhng"
+              "Ref": "GenerateContentLambdaVersionx7aPzw2vb89uFw6D1TLlBn6swIGfTJ8N6nR0Z6GWr8s"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-GenerateContentLambdaFunctionQualifiedArn"
@@ -4427,7 +4427,7 @@
           "UploadHandlerLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "UploadHandlerLambdaVersionga586JGo25jDKZdJpB7VqfyNISr5nmrORoEoSZl7qI"
+              "Ref": "UploadHandlerLambdaVersionT6le4AZfdh0xScqdsB47uDLq22MT0PQ6y3xJW0IlUkg"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-UploadHandlerLambdaFunctionQualifiedArn"
@@ -4436,7 +4436,7 @@
           "CreateSessionLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "CreateSessionLambdaVersionKsw89Nijl98BuiFp70USTGCtWkpkLMh7GiTq8NC7Y"
+              "Ref": "CreateSessionLambdaVersionciXGUxagVL6acp7UJr0YuS0lZ8fi34CBgfWy65rVA5M"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-CreateSessionLambdaFunctionQualifiedArn"
@@ -4445,7 +4445,7 @@
           "JoinSessionLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "JoinSessionLambdaVersionirpxIZ38przD81IiKgiMJkNlHkgIUW7XbLyFnTDJDJo"
+              "Ref": "JoinSessionLambdaVersion9jW3YaDkLikBJhtN1n1odNGZJEZhpeQcu1lCyp4hibA"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-JoinSessionLambdaFunctionQualifiedArn"
@@ -4454,7 +4454,7 @@
           "GetSessionLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "GetSessionLambdaVersionN4X630kO5T1uWIBV0ZOpvviQUGidJ9t6ApW4SPozTmM"
+              "Ref": "GetSessionLambdaVersion2Q0Zgy6UdezJplieeN3jjFlJTVajtrUjBydLkLcHo"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-GetSessionLambdaFunctionQualifiedArn"
@@ -4463,7 +4463,7 @@
           "SubmitAnswerLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "SubmitAnswerLambdaVersionmwMnqukxoiWOGueQ37pMxwa8udxTrFpadAh15hjKE"
+              "Ref": "SubmitAnswerLambdaVersionFMxSMafCZgC2CYIUltVOm8a1sEqcCuSVIpb9P85HSc"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-SubmitAnswerLambdaFunctionQualifiedArn"
@@ -4472,7 +4472,7 @@
           "NextQuestionLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "NextQuestionLambdaVersioniYdzxMZ8KrALp0mhaWeHqXUa5PSpFGyiwoIdP8q6Q"
+              "Ref": "NextQuestionLambdaVersionqgU4y0EoOlGCBV2RAFs8kkE4XVstyGPyvpBBcSeQ"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-NextQuestionLambdaFunctionQualifiedArn"
@@ -4481,7 +4481,7 @@
           "GetLeaderboardLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "GetLeaderboardLambdaVersionDwrL49OiTI8gQSA6txfVhrWC01rGtYKZsvI3ef0wQ"
+              "Ref": "GetLeaderboardLambdaVersionNmFor77fU1IwVs86SmXzUAkBUT9pLTg7JZ9T6buIk"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-GetLeaderboardLambdaFunctionQualifiedArn"
@@ -4490,7 +4490,7 @@
           "UploadAudioLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "UploadAudioLambdaVersion6nwmcp92nMk6CDZ9QFQHL00HgJmvYwug91c36KQ6k"
+              "Ref": "UploadAudioLambdaVersionHUPlxaEBGITvPHSxnC8mBCccMe5xgNPfOKyy8Ciccc"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-UploadAudioLambdaFunctionQualifiedArn"
@@ -4499,7 +4499,7 @@
           "GetTranscriptionStatusLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "GetTranscriptionStatusLambdaVersionAx4GKqbWH0gfjoOwLnpl86ctGQMQBEw8vOC19DtKBs"
+              "Ref": "GetTranscriptionStatusLambdaVersiontGOHBs7CjgOz4hzj2P4xRCHu7BnUMqHnC1fSoAVnA"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-GetTranscriptionStatusLambdaFunctionQualifiedArn"
@@ -4508,7 +4508,7 @@
           "GenerateMoreQuestionsLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "GenerateMoreQuestionsLambdaVersionFAyU7ip1ucmTxbl9wNGvjE3y75EaaDDVN1NlaDmC8"
+              "Ref": "GenerateMoreQuestionsLambdaVersionEObSmHJ1CgItEjZXXR7JzoSKKsagBU3ubtdfOa3yA"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-GenerateMoreQuestionsLambdaFunctionQualifiedArn"
@@ -4517,7 +4517,7 @@
           "ExportQuizletLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ExportQuizletLambdaVersion3hoDopZfupT5VvioPxFCIUQ24PLLyPQ3PXoT1FNvo"
+              "Ref": "ExportQuizletLambdaVersionS5xGUa3MqecwS8eXeqOPyBP8CXi5ykcZhdBistte1jQ"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-ExportQuizletLambdaFunctionQualifiedArn"
@@ -4526,7 +4526,7 @@
           "ExportKahootLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ExportKahootLambdaVersionVs5c2K65XSVW7NFqH0Fyh4E9wSSgTK3BHuLfI6WaYk"
+              "Ref": "ExportKahootLambdaVersion8h2AE25UjgIys0lQXKrMj4WeSayLGU7fmjvS47dYxnY"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-ExportKahootLambdaFunctionQualifiedArn"
@@ -4535,7 +4535,7 @@
           "ExportStudyGuideLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ExportStudyGuideLambdaVersionZMlZs01L8jHNCJsasZsQgBmkcddWBVT9GxcckhuyVA"
+              "Ref": "ExportStudyGuideLambdaVersionyNhcU3qjsOZsRPgxqUoh4TEPl3LjwBdfwQkCF4oZiA"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-ExportStudyGuideLambdaFunctionQualifiedArn"
@@ -4544,7 +4544,7 @@
           "MultiplayerCreateRoomLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "MultiplayerCreateRoomLambdaVersionqd9YGUmkUQnzKEO5nlERRkerO9g4dSpQkFVDvYrI"
+              "Ref": "MultiplayerCreateRoomLambdaVersionZNQt7TwbWiO2iuz3QKM83u2uYA2HiejgNeD6YmCKHs"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-MultiplayerCreateRoomLambdaFunctionQualifiedArn"
@@ -4553,7 +4553,7 @@
           "MultiplayerJoinRoomLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "MultiplayerJoinRoomLambdaVersion9Ag9i8PHpQyzaj2pdYldUq7YlbzN1zBZBkgBOP9emRc"
+              "Ref": "MultiplayerJoinRoomLambdaVersion1swsOW0g9lT0BxM7ophUMKKSO7L6NS70ziCArId8cM"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-MultiplayerJoinRoomLambdaFunctionQualifiedArn"
@@ -4562,7 +4562,7 @@
           "MultiplayerGetRoomLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "MultiplayerGetRoomLambdaVersionZVTu0zuqaoYv7tKWIEw5x0t4smERPkcgUQtPWhmEE"
+              "Ref": "MultiplayerGetRoomLambdaVersioneb9saboB06FBViOkIzs9MvqJ12qDAQeqBXgvCVlALk"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-MultiplayerGetRoomLambdaFunctionQualifiedArn"
@@ -4571,7 +4571,7 @@
           "MultiplayerStartRoomLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "MultiplayerStartRoomLambdaVersiondLLX7RxqJc2IYbKhmdH0H6IwOgpOyphbL1A4UvbQ1x8"
+              "Ref": "MultiplayerStartRoomLambdaVersion8i7ZDIGK3fBY6YRM4tmo0iWNiK8M3EiB5DkwoPpNw8"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-MultiplayerStartRoomLambdaFunctionQualifiedArn"
@@ -4580,7 +4580,7 @@
           "MultiplayerLeaveRoomLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "MultiplayerLeaveRoomLambdaVersionykRSDbjWMw0TgXzXR5hjxUhZVT0iEacn5cYKChiAiU"
+              "Ref": "MultiplayerLeaveRoomLambdaVersionbog7NLE6wmS5ecORLiejyZqPzTYRlRf6XTgLo54t4hU"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-MultiplayerLeaveRoomLambdaFunctionQualifiedArn"
@@ -4589,7 +4589,7 @@
           "MultiplayerSubmitAnswerLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "MultiplayerSubmitAnswerLambdaVersionNzR6npAmWjtvCyaeBMgSqMcHwuE8iqnGQX9YM9VFkRE"
+              "Ref": "MultiplayerSubmitAnswerLambdaVersionqnvfFntQMEW0V8DzjQWtyUv2wa37CSG5PI9lg8YjLQ"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-MultiplayerSubmitAnswerLambdaFunctionQualifiedArn"
@@ -4598,7 +4598,7 @@
           "MultiplayerNextQuestionLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "MultiplayerNextQuestionLambdaVersionVojnY3cIZy2XmYKhfcb4l6BW7B8TOjkCXSx8dRxoY"
+              "Ref": "MultiplayerNextQuestionLambdaVersionZVL2LPMz2TJJeEKxGNMjxvEiK7VtwTOQXxkhFcuS270"
             },
             "Export": {
               "Name": "sls-ai-study-assistant-dev-MultiplayerNextQuestionLambdaFunctionQualifiedArn"
@@ -4760,7 +4760,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "GenerateContentLambdaVersionCMtMVYcn5zawCmJrN4wd5JMQPtuCJlPKVvGMSYnKhng"
+        "versionLogicalId": "GenerateContentLambdaVersionx7aPzw2vb89uFw6D1TLlBn6swIGfTJ8N6nR0Z6GWr8s"
       },
       "uploadHandler": {
         "handler": "functions/uploadHandler.handler",
@@ -4796,7 +4796,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "UploadHandlerLambdaVersionga586JGo25jDKZdJpB7VqfyNISr5nmrORoEoSZl7qI"
+        "versionLogicalId": "UploadHandlerLambdaVersionT6le4AZfdh0xScqdsB47uDLq22MT0PQ6y3xJW0IlUkg"
       },
       "createSession": {
         "handler": "functions/createSession.handler",
@@ -4832,7 +4832,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "CreateSessionLambdaVersionKsw89Nijl98BuiFp70USTGCtWkpkLMh7GiTq8NC7Y"
+        "versionLogicalId": "CreateSessionLambdaVersionciXGUxagVL6acp7UJr0YuS0lZ8fi34CBgfWy65rVA5M"
       },
       "joinSession": {
         "handler": "functions/joinSession.handler",
@@ -4868,7 +4868,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "JoinSessionLambdaVersionirpxIZ38przD81IiKgiMJkNlHkgIUW7XbLyFnTDJDJo"
+        "versionLogicalId": "JoinSessionLambdaVersion9jW3YaDkLikBJhtN1n1odNGZJEZhpeQcu1lCyp4hibA"
       },
       "getSession": {
         "handler": "functions/getSession.handler",
@@ -4904,7 +4904,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "GetSessionLambdaVersionN4X630kO5T1uWIBV0ZOpvviQUGidJ9t6ApW4SPozTmM"
+        "versionLogicalId": "GetSessionLambdaVersion2Q0Zgy6UdezJplieeN3jjFlJTVajtrUjBydLkLcHo"
       },
       "submitAnswer": {
         "handler": "functions/submitAnswer.handler",
@@ -4940,7 +4940,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "SubmitAnswerLambdaVersionmwMnqukxoiWOGueQ37pMxwa8udxTrFpadAh15hjKE"
+        "versionLogicalId": "SubmitAnswerLambdaVersionFMxSMafCZgC2CYIUltVOm8a1sEqcCuSVIpb9P85HSc"
       },
       "nextQuestion": {
         "handler": "functions/nextQuestion.handler",
@@ -4976,7 +4976,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "NextQuestionLambdaVersioniYdzxMZ8KrALp0mhaWeHqXUa5PSpFGyiwoIdP8q6Q"
+        "versionLogicalId": "NextQuestionLambdaVersionqgU4y0EoOlGCBV2RAFs8kkE4XVstyGPyvpBBcSeQ"
       },
       "getLeaderboard": {
         "handler": "functions/getLeaderboard.handler",
@@ -5012,7 +5012,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "GetLeaderboardLambdaVersionDwrL49OiTI8gQSA6txfVhrWC01rGtYKZsvI3ef0wQ"
+        "versionLogicalId": "GetLeaderboardLambdaVersionNmFor77fU1IwVs86SmXzUAkBUT9pLTg7JZ9T6buIk"
       },
       "uploadAudio": {
         "handler": "functions/uploadAudio.handler",
@@ -5048,7 +5048,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "UploadAudioLambdaVersion6nwmcp92nMk6CDZ9QFQHL00HgJmvYwug91c36KQ6k"
+        "versionLogicalId": "UploadAudioLambdaVersionHUPlxaEBGITvPHSxnC8mBCccMe5xgNPfOKyy8Ciccc"
       },
       "getTranscriptionStatus": {
         "handler": "functions/getTranscriptionStatus.handler",
@@ -5084,7 +5084,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "GetTranscriptionStatusLambdaVersionAx4GKqbWH0gfjoOwLnpl86ctGQMQBEw8vOC19DtKBs"
+        "versionLogicalId": "GetTranscriptionStatusLambdaVersiontGOHBs7CjgOz4hzj2P4xRCHu7BnUMqHnC1fSoAVnA"
       },
       "generateMoreQuestions": {
         "handler": "functions/generateMoreQuestions.handler",
@@ -5120,7 +5120,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "GenerateMoreQuestionsLambdaVersionFAyU7ip1ucmTxbl9wNGvjE3y75EaaDDVN1NlaDmC8"
+        "versionLogicalId": "GenerateMoreQuestionsLambdaVersionEObSmHJ1CgItEjZXXR7JzoSKKsagBU3ubtdfOa3yA"
       },
       "exportQuizlet": {
         "handler": "functions/exportQuizlet.handler",
@@ -5156,7 +5156,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "ExportQuizletLambdaVersion3hoDopZfupT5VvioPxFCIUQ24PLLyPQ3PXoT1FNvo"
+        "versionLogicalId": "ExportQuizletLambdaVersionS5xGUa3MqecwS8eXeqOPyBP8CXi5ykcZhdBistte1jQ"
       },
       "exportKahoot": {
         "handler": "functions/exportKahoot.handler",
@@ -5192,7 +5192,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "ExportKahootLambdaVersionVs5c2K65XSVW7NFqH0Fyh4E9wSSgTK3BHuLfI6WaYk"
+        "versionLogicalId": "ExportKahootLambdaVersion8h2AE25UjgIys0lQXKrMj4WeSayLGU7fmjvS47dYxnY"
       },
       "exportStudyGuide": {
         "handler": "functions/exportStudyGuide.handler",
@@ -5228,7 +5228,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "ExportStudyGuideLambdaVersionZMlZs01L8jHNCJsasZsQgBmkcddWBVT9GxcckhuyVA"
+        "versionLogicalId": "ExportStudyGuideLambdaVersionyNhcU3qjsOZsRPgxqUoh4TEPl3LjwBdfwQkCF4oZiA"
       },
       "multiplayerCreateRoom": {
         "handler": "functions/multiplayerCreateRoom.handler",
@@ -5264,7 +5264,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "MultiplayerCreateRoomLambdaVersionqd9YGUmkUQnzKEO5nlERRkerO9g4dSpQkFVDvYrI"
+        "versionLogicalId": "MultiplayerCreateRoomLambdaVersionZNQt7TwbWiO2iuz3QKM83u2uYA2HiejgNeD6YmCKHs"
       },
       "multiplayerJoinRoom": {
         "handler": "functions/multiplayerJoinRoom.handler",
@@ -5300,7 +5300,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "MultiplayerJoinRoomLambdaVersion9Ag9i8PHpQyzaj2pdYldUq7YlbzN1zBZBkgBOP9emRc"
+        "versionLogicalId": "MultiplayerJoinRoomLambdaVersion1swsOW0g9lT0BxM7ophUMKKSO7L6NS70ziCArId8cM"
       },
       "multiplayerGetRoom": {
         "handler": "functions/multiplayerGetRoom.handler",
@@ -5336,7 +5336,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "MultiplayerGetRoomLambdaVersionZVTu0zuqaoYv7tKWIEw5x0t4smERPkcgUQtPWhmEE"
+        "versionLogicalId": "MultiplayerGetRoomLambdaVersioneb9saboB06FBViOkIzs9MvqJ12qDAQeqBXgvCVlALk"
       },
       "multiplayerStartRoom": {
         "handler": "functions/multiplayerStartRoom.handler",
@@ -5372,7 +5372,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "MultiplayerStartRoomLambdaVersiondLLX7RxqJc2IYbKhmdH0H6IwOgpOyphbL1A4UvbQ1x8"
+        "versionLogicalId": "MultiplayerStartRoomLambdaVersion8i7ZDIGK3fBY6YRM4tmo0iWNiK8M3EiB5DkwoPpNw8"
       },
       "multiplayerLeaveRoom": {
         "handler": "functions/multiplayerLeaveRoom.handler",
@@ -5408,7 +5408,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "MultiplayerLeaveRoomLambdaVersionykRSDbjWMw0TgXzXR5hjxUhZVT0iEacn5cYKChiAiU"
+        "versionLogicalId": "MultiplayerLeaveRoomLambdaVersionbog7NLE6wmS5ecORLiejyZqPzTYRlRf6XTgLo54t4hU"
       },
       "multiplayerSubmitAnswer": {
         "handler": "functions/multiplayerSubmitAnswer.handler",
@@ -5444,7 +5444,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "MultiplayerSubmitAnswerLambdaVersionNzR6npAmWjtvCyaeBMgSqMcHwuE8iqnGQX9YM9VFkRE"
+        "versionLogicalId": "MultiplayerSubmitAnswerLambdaVersionqnvfFntQMEW0V8DzjQWtyUv2wa37CSG5PI9lg8YjLQ"
       },
       "multiplayerNextQuestion": {
         "handler": "functions/multiplayerNextQuestion.handler",
@@ -5480,7 +5480,7 @@
         "timeout": 60,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "MultiplayerNextQuestionLambdaVersionVojnY3cIZy2XmYKhfcb4l6BW7B8TOjkCXSx8dRxoY"
+        "versionLogicalId": "MultiplayerNextQuestionLambdaVersionZVL2LPMz2TJJeEKxGNMjxvEiK7VtwTOQXxkhFcuS270"
       }
     },
     "resources": {
@@ -5601,7 +5601,7 @@
     "artifact": "/Users/matt/Desktop/Hackathon/backend/.serverless/ai-study-assistant.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/ai-study-assistant/dev/1760841738911-2025-10-19T02:42:18.911Z",
+    "artifactDirectoryName": "serverless/ai-study-assistant/dev/1760852051959-2025-10-19T05:34:11.959Z",
     "artifact": "ai-study-assistant.zip"
   }
 }

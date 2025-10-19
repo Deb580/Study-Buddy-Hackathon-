@@ -9,26 +9,25 @@ const docClient = DynamoDBDocumentClient.from(client);
 
 const JOBS_TABLE = process.env.TRANSCRIPTION_JOBS_TABLE || 'ai-study-assistant-dev-TranscriptionJobs';
 
-// Generic educational content that works well for any subject
-const GENERIC_TRANSCRIPT = `Welcome to today's lecture. Let me begin by discussing the fundamental concepts and principles that form the foundation of this subject area.
+// Educational transcript content for demo - MLK Speech Summary
+const GENERIC_TRANSCRIPT = `This is an educational summary and analysis of Dr. Martin Luther King Jr.'s historic speech delivered at the Lincoln Memorial during the March on Washington for Jobs and Freedom on August 28, 1963.
 
-First, we need to understand the historical context and background. The development of these ideas emerged from decades of research, experimentation, and theoretical work by experts in the field. Understanding this evolution helps us appreciate current approaches and methodologies.
+The speech begins with a powerful historical reference, situating the moment within the broader context of American history and the Emancipation Proclamation signed one hundred years prior. Dr. King emphasizes that despite the passage of a century, African Americans still face segregation and discrimination.
 
-The core principles can be broken down into several key components. Each component plays a crucial role in the overall framework. The first principle establishes the basic foundation upon which everything else is built. This includes defining key terminology, establishing relationships between concepts, and understanding cause-and-effect relationships.
+A central theme involves the metaphor of a promissory note - the Constitution and Declaration of Independence as a promise to all Americans of unalienable rights to life, liberty, and the pursuit of happiness. Dr. King argues that America has defaulted on this promise for its citizens of color.
 
-The second major concept involves the practical applications of these theories. Theory alone is not sufficient - we must understand how these ideas translate into real-world scenarios and problem-solving situations. This includes examining case studies, analyzing examples, and understanding best practices.
+The speech's most famous section articulates a vision of America where people are judged by the content of their character rather than the color of their skin. This dream encompasses brotherhood, justice, and equality across all states and regions.
 
-Moving forward, let's discuss the various methodologies and approaches. Different situations may require different strategies. It's important to understand when to apply each method and why certain approaches work better in specific contexts. This involves critical thinking, analysis, and evaluation skills.
+Key principles emphasized include nonviolent resistance, meeting physical force with soul force, and refusing to satisfy thirst for freedom by drinking from the cup of bitterness and hatred. Dr. King stresses that the struggle must be conducted on the high plane of dignity and discipline.
 
-There are several important factors that influence outcomes in this field. Environmental conditions, resource availability, timing, and proper implementation all play significant roles. Understanding these variables helps us make better decisions and achieve more successful results.
+The speech addresses both the urgency of now and the fierce urgency of the moment, while also acknowledging that this is not an end but a beginning. There is a call to continue working until justice rolls down like waters and righteousness like a mighty stream.
 
-Common challenges and obstacles often arise during implementation. Being aware of potential pitfalls allows us to plan accordingly and develop contingency strategies. Problem-solving skills and adaptability are essential for overcoming these challenges effectively.
+Geographic specificity strengthens the message, with references to various states including Mississippi, Alabama, Georgia, and others, illustrating that this is a national issue requiring nationwide transformation.
 
-Best practices have emerged through years of experience and research. Following established guidelines while remaining flexible enough to adapt to unique circumstances represents the ideal approach. Continuous learning and improvement are essential for staying current in this ever-evolving field.
+The conclusion returns to the theme of hope and faith, expressing confidence that the nation can transform its discords into a beautiful symphony of brotherhood. There is an emphasis on working together, struggling together, and standing up for freedom together.
 
-Looking toward the future, emerging trends and innovations continue to shape this discipline. New technologies, methodologies, and discoveries constantly expand our understanding. Staying informed about these developments is crucial for continued growth and success.
+This speech remains one of the most significant pieces of American oratory, combining biblical references, patriotic imagery, and moral urgency to advance the cause of civil rights and equality.`;
 
-In conclusion, mastering these concepts requires dedication, practice, and ongoing study. The principles we've discussed today provide a solid foundation for further exploration and application in real-world contexts.`;
 
 class MockTranscriptionService {
   // Simulate starting a transcription job
