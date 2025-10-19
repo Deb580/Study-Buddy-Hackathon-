@@ -1,0 +1,280 @@
+service: ai-study-assistant
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1
+  stage: dev
+  timeout: 60  # Default 60 second timeout for all functions (AI operations can take 30-45 seconds)
+  environment:
+    BEDROCK_MODEL_ID: amazon.nova-pro-v1:0
+    DYNAMODB_TABLE: ${self:service}-${self:provider.stage}-QuizSessions
+    MULTIPLAYER_ROOMS_TABLE: ${self:service}-${self:provider.stage}-MultiplayerRooms
+    TRANSCRIPTION_JOBS_TABLE: ${self:service}-${self:provider.stage}-TranscriptionJobs
+  iamRoleStatements:
+    # DynamoDB permissions
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource:
+        - "arn:aws:dynamodb:${self:provider.region}:*:table/${self:service}-${self:provider.stage}-QuizSessions"
+        - "arn:aws:dynamodb:${self:provider.region}:*:table/${self:service}-${self:provider.stage}-QuizSessions/index/*"
+        - "arn:aws:dynamodb:${self:provider.region}:*:table/${self:service}-${self:provider.stage}-MultiplayerRooms"
+        - "arn:aws:dynamodb:${self:provider.region}:*:table/${self:service}-${self:provider.stage}-TranscriptionJobs"
+    # Bedrock permissions
+    - Effect: Allow
+      Action:
+        - bedrock:InvokeModel
+        - bedrock:ListFoundationModels
+        - bedrock:GetFoundationModel
+        - aws-marketplace:ViewSubscriptions
+      Resource: "*"
+
+plugins:
+  - serverless-offline
+
+custom:
+  serverless-offline:
+    httpPort: 3001
+
+resources:
+  Resources:
+    # DynamoDB Table for Quiz Sessions
+    QuizSessionsTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${self:service}-${self:provider.stage}-QuizSessions
+        AttributeDefinitions:
+          - AttributeName: sessionId
+            AttributeType: S
+          - AttributeName: roomCode
+            AttributeType: S
+        KeySchema:
+          - AttributeName: sessionId
+            KeyType: HASH
+        GlobalSecondaryIndexes:
+          - IndexName: RoomCodeIndex
+            KeySchema:
+              - AttributeName: roomCode
+                KeyType: HASH
+            Projection:
+              ProjectionType: ALL
+        BillingMode: PAY_PER_REQUEST
+        TimeToLiveSpecification:
+          AttributeName: ttl
+          Enabled: true
+
+    # DynamoDB Table for Multiplayer Rooms
+    MultiplayerRoomsTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${self:service}-${self:provider.stage}-MultiplayerRooms
+        AttributeDefinitions:
+          - AttributeName: code
+            AttributeType: S
+        KeySchema:
+          - AttributeName: code
+            KeyType: HASH
+        BillingMode: PAY_PER_REQUEST
+        TimeToLiveSpecification:
+          AttributeName: ttl
+          Enabled: true
+
+    # DynamoDB Table for Transcription Jobs
+    TranscriptionJobsTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${self:service}-${self:provider.stage}-TranscriptionJobs
+        AttributeDefinitions:
+          - AttributeName: jobId
+            AttributeType: S
+        KeySchema:
+          - AttributeName: jobId
+            KeyType: HASH
+        BillingMode: PAY_PER_REQUEST
+        TimeToLiveSpecification:
+          AttributeName: ttl
+          Enabled: true
+
+functions:
+  # AI Content Generation
+  generateContent:
+    handler: functions/generateContent.handler
+    events:
+      - http:
+          path: generate  # Remove the leading /
+          method: post
+          cors: true
+
+  # File Upload Handler
+  uploadHandler:
+    handler: functions/uploadHandler.handler
+    events:
+      - http:
+          path: upload  # Remove the leading /
+          method: post
+          cors: true
+
+  # Quiz Session Management
+  createSession:
+    handler: functions/createSession.handler
+    events:
+      - http:
+          path: session  # Remove the leading /
+          method: post
+          cors: true
+
+  joinSession:
+    handler: functions/joinSession.handler
+    events:
+      - http:
+          path: session/join  # Remove the leading /
+          method: post
+          cors: true
+
+  getSession:
+    handler: functions/getSession.handler
+    events:
+      - http:
+          path: session/{id}  # Remove the leading /
+          method: get
+          cors: true
+
+  submitAnswer:
+    handler: functions/submitAnswer.handler
+    events:
+      - http:
+          path: session/{id}/answer  # Remove the leading /
+          method: post
+          cors: true
+
+  nextQuestion:
+    handler: functions/nextQuestion.handler
+    events:
+      - http:
+          path: session/{id}/next  # Remove the leading /
+          method: post
+          cors: true
+
+  getLeaderboard:
+    handler: functions/getLeaderboard.handler
+    events:
+      - http:
+          path: session/{id}/scores  # Remove the leading /
+          method: get
+          cors: true
+
+  # Audio Upload & Transcription
+  uploadAudio:
+    handler: functions/uploadAudio.handler
+    events:
+      - http:
+          path: upload/audio  # Remove the leading /
+          method: post
+          cors: true
+
+  getTranscriptionStatus:
+    handler: functions/getTranscriptionStatus.handler
+    events:
+      - http:
+          path: transcription/{jobId}  # Remove the leading /
+          method: get
+          cors: true
+
+  # Dynamic Quiz Generation
+  generateMoreQuestions:
+    handler: functions/generateMoreQuestions.handler
+    events:
+      - http:
+          path: quiz/generate-more  # Remove the leading /
+          method: post
+          cors: true
+
+  # Export Functions
+  exportQuizlet:
+    handler: functions/exportQuizlet.handler
+    events:
+      - http:
+          path: export/quizlet/{setId}  # Remove the leading /
+          method: post
+          cors: true
+
+  exportKahoot:
+    handler: functions/exportKahoot.handler
+    events:
+      - http:
+          path: export/kahoot  # Remove the leading /
+          method: post
+          cors: true
+
+  exportStudyGuide:
+    handler: functions/exportStudyGuide.handler
+    events:
+      - http:
+          path: export/study-guide  # Remove the leading /
+          method: post
+          cors: true
+
+  # Multiplayer Functions
+  multiplayerCreateRoom:
+    handler: functions/multiplayerCreateRoom.handler
+    events:
+      - http:
+          path: multiplayer/rooms
+          method: post
+          cors: true
+
+  multiplayerJoinRoom:
+    handler: functions/multiplayerJoinRoom.handler
+    events:
+      - http:
+          path: multiplayer/rooms/{code}/join
+          method: post
+          cors: true
+
+  multiplayerGetRoom:
+    handler: functions/multiplayerGetRoom.handler
+    events:
+      - http:
+          path: multiplayer/rooms/{code}
+          method: get
+          cors: true
+
+  multiplayerStartRoom:
+    handler: functions/multiplayerStartRoom.handler
+    events:
+      - http:
+          path: multiplayer/rooms/{code}/start
+          method: post
+          cors: true
+
+  multiplayerLeaveRoom:
+    handler: functions/multiplayerLeaveRoom.handler
+    events:
+      - http:
+          path: multiplayer/rooms/{code}/leave
+          method: post
+          cors: true
+
+  multiplayerSubmitAnswer:
+    handler: functions/multiplayerSubmitAnswer.handler
+    events:
+      - http:
+          path: multiplayer/rooms/{code}/answer
+          method: post
+          cors: true
+
+  multiplayerNextQuestion:
+    handler: functions/multiplayerNextQuestion.handler
+    events:
+      - http:
+          path: multiplayer/rooms/{code}/next
+          method: post
+          cors: true
